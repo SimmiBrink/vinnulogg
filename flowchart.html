@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="7200">
+  <title>Work Log — 20.03.2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1e1e2e; color: #cdd6f4;
+      padding: 24px; min-height: 100vh;
+    }
+    h1  { color: #89b4fa; margin-bottom: 4px; font-size: 1.8rem; }
+    h2  { color: #cba6f7; margin-bottom: 14px; font-size: 1.1rem; }
+    .subtitle { color: #6c7086; font-size: 0.9rem; margin-bottom: 24px; }
+    .stats { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+    .stat-card {
+      background: #313244; border-radius: 12px;
+      padding: 16px 24px; min-width: 140px;
+      border-left: 4px solid #89b4fa;
+    }
+    .stat-card h3 {
+      color: #a6e3a1; font-size: 0.75rem; text-transform: uppercase;
+      letter-spacing: 1px; margin-bottom: 6px;
+    }
+    .stat-card p { font-size: 1.6rem; font-weight: 700; }
+    .section { background: #313244; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+    .mermaid { background: #fff; border-radius: 8px; padding: 16px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 10px 16px; border-bottom: 1px solid #45475a; }
+    th { color: #89b4fa; font-size: 0.8rem; text-transform: uppercase; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #3d3d5c; }
+    .bar-container {
+      display: flex; height: 28px; border-radius: 6px;
+      overflow: hidden; margin-bottom: 8px; gap: 2px;
+    }
+    .bar-item { height: 100%; transition: opacity .2s; cursor: default; }
+    .bar-item:hover { opacity: 0.8; }
+    .worklog {
+      font-family: 'Cascadia Code', Consolas, monospace;
+      font-size: 0.82rem; line-height: 1.75;
+      max-height: 420px; overflow-y: auto;
+      background: #181825; border-radius: 8px; padding: 16px;
+    }
+    .log-line { color: #cdd6f4; white-space: pre-wrap; }
+    .log-line:hover { background: #2a2a3d; }
+    .footer { color: #585b70; font-size: 0.8rem; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Work Log</h1>
+  <p class="subtitle">
+    20.03.2026 &mdash;
+    Chart regenerates every 2 hours &mdash;
+    Screenshots every 30 min &mdash;
+    Last updated 00:36:40
+  </p>
+
+  <div class="stats">
+    <div class="stat-card"><h3>Total Time</h3><p>0:00h</p></div>
+    <div class="stat-card"><h3>Apps Used</h3><p>0</p></div>
+    <div class="stat-card"><h3>Sessions</h3><p>0</p></div>
+  </div>
+
+  <div class="section">
+    <h2>App Usage</h2>
+    <div class="bar-container"></div>
+    <table>
+      <tr><th>Application</th><th>Time</th></tr>
+      
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Detailed Activity Log</h2>
+    <div class="worklog"><div class="log-line"></div><div class="log-line">============================================================</div><div class="log-line">  Work Log — Friday, March 20 2026</div><div class="log-line">============================================================</div><div class="log-line">[00:36]  >>> Activity logger started</div></div>
+  </div>
+
+  <div class="section">
+    <h2>Day Timeline (Flowchart)</h2>
+    <div class="mermaid">
+flowchart TD
+    A([No activities recorded yet])
+    </div>
+  </div>
+
+  <p class="footer">
+    Logs: worklog.txt &nbsp;|&nbsp;
+    Screenshots: /screenshots/ &nbsp;|&nbsp;
+    Data: vinnulogg.json
+  </p>
+  <script>mermaid.initialize({ startOnLoad: true, theme: 'default' });</script>
+</body>
+</html>

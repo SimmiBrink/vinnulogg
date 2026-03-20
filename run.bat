@@ -7,3 +7,4 @@ echo.
 cd /d "%~dp0"
 python activity_logger.py
 pause
+
