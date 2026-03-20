@@ -23,7 +23,7 @@ echo Uppfaerir pip...
 python -m pip install --upgrade pip --quiet
 
 echo Setti upp pakka...
-python -m pip install pywin32 psutil
+python -m pip install pywin32 psutil Pillow
 
 echo.
 echo ================================================
